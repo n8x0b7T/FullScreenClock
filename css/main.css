@@ -1,0 +1,63 @@
+.noOpacity {
+    opacity: 0;
+}
+
+#clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.big {
+    font-size: 12vw;
+}
+
+.medium {
+    font-size: 8vw;
+}
+
+.small {
+    font-size: 5vw;
+
+}
+
+#menuButton {
+    position: absolute;
+    bottom: 13;
+    left: 13;
+    transition: .3s;
+}
+
+.dark {
+    background: #212121;
+    color: #fafafa;
+}
+
+.dark #slide-out {
+    background: #424242;
+
+}
+
+.dark input {
+    color: white;
+}
+
+#menu {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    padding-top: 60px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+#menu > li {
+    margin-top: 40px;
+}
+
+.mouseHide{
+    cursor: none;
+}
