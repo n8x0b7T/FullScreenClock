@@ -31,6 +31,11 @@
     transition: .3s;
 }
 
+body {
+    transition: .5s;
+    
+}
+
 .dark {
     background: #212121;
     color: #fafafa;
@@ -41,8 +46,12 @@
 
 }
 
+.dark .caret {
+    color: #fafafa;
+}
+
 .dark input {
-    color: white;
+    color: #fafafa;
 }
 
 #menu {
