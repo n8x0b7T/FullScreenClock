@@ -47,7 +47,7 @@ body {
 }
 
 .dark .caret {
-    color: #fafafa;
+    fill: #fafafa;
 }
 
 .dark input {
